@@ -9,7 +9,7 @@ const ec2 = new AWS.EC2({
 });
 
 ec2.terminateInstances({
-    InstanceIds: ['i-0112887371112fbfd']
+    InstanceIds: ['i-0e4add67331e99b84']
 }, function (error, data) {
     if (error) {
         console.log(error, error.stack);

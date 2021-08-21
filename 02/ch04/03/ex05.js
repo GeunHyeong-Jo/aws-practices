@@ -13,7 +13,7 @@ ec2.describeInstances({
         Name: 'availability-zone',
         Values: ['ap-northeast-2a']
     }],
-    InstanceIds: ['i-0112887371112fbfd']
+    InstanceIds: ['i-0e4add67331e99b84']
 }, function (error, data) {
     if (error) {
         console.log(error, error.stack);
